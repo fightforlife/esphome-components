@@ -2,25 +2,18 @@
 
 Misc. unofficial ESPHome components.
 
-Please use [Discussions](https://github.com/spali/esphome_components/discussions) section for feedback.
-
 ## Usage
 
 ```yaml
 external_components:
   - source:
       type: git
-      url: https://github.com/spali/esphome-components
-      ref: master # you should pin a commit to prevent unexpected breaking changes
-    components: [ ... ]
+      url: https://github.com/fightforlife/esphome-components
+    components: [ ethernet ]
 ```
 
 ## Components
 
-### [ethernet_spi](components/ethernet_spi)
+### [ethernet](components/ethernet)
 
-Component to support W5500 on ESP-IDF as a ESPHome component.
-
-### [max3421e](components/max3421e)
-
-Component that setup and handle basic USB Host stuff and can be used by other components to access USB devices.
+Component to support W5500 on ESP-IDF and Arduino as a ESPHome component.
