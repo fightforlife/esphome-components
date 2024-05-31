@@ -37,4 +37,5 @@ class NRF24L01 : public spi::SPIDevice<spi::BIT_ORDER_MSB_FIRST, spi::CLOCK_POLA
 };
 
 }  // namespace nrf24l01
+
 }  // namespace esphome
